@@ -1,0 +1,17 @@
+A simple ember.js app to show bower + es6-modules in action
+
+
+To run the ember.js locally
+
+    npm install
+    export PATH="./node_modules/.bin:$PATH"
+    grunt server
+
+    visit http://localhost:3000 to see the running app
+
+
+To run the javascript tests
+
+    npm install
+    export PATH="./node_modules/.bin:$PATH"
+    grunt test

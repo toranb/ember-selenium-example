@@ -15,3 +15,10 @@ To run the javascript tests
     npm install
     export PATH="./node_modules/.bin:$PATH"
     grunt test
+
+
+To run the selenium tests
+
+    rvm use 2.1 --default
+    bundle install
+    sh selenium.sh

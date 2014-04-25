@@ -2,7 +2,7 @@
 {{input class="lastName" type="text" placeholder="last name" value=lastName }}
 <button class="submit" {{action "addPerson"}}>Add</button>
 <br />
-<table>
+<table id="people">
 {{#each person in controller}}
 <tr>
   <td class="name">{{person.fullName}}</td>

@@ -11,8 +11,5 @@
     "grunt-ember-template-compiler": "1.5.0",
     "grunt-contrib-connect": "*",
     "grunt-contrib-watch": "*"
-  },
-  "scripts": {
-    "postinstall": "bower install"
   }
 }
